@@ -7,7 +7,7 @@ int main() {
 
 	//	Imprime cabeçalho do nosso jogo
 	printf("-----------------------------------------------");
-	printf("\n\tBem-vindo(a) ao jogo da adivinhação!\n");
+	printf("\n\t      JOGO DA ADIVINHAÇÃO\n");
 	printf("-----------------------------------------------\n\n");
 
 	int numero_secreto = 42;
@@ -31,5 +31,9 @@ int main() {
 				printf("Seu chute foi menor do que o número secreto. Tente novamente.\n\n");
 		}
 	}
+
+	printf("-----------------------------------------------");
+	printf("\n\t\tFIM DE JOGO!\n");
+	printf("-----------------------------------------------\n\n");
 
 }
